@@ -1,0 +1,14 @@
+Vehicle
+
+Attributes
+
+engine (string)
+manual_transmission (boolean)
+zero_to_sixty (float)
+make_model_year (array?)
+
+Methods
+engine_swap (changes the engine string)
+add_turbo (changes the zero_to_sixty float to a smaller number)
+trans_swap (makes manual_transmission boolean read false if new trans is automatic)
+new_car (changes the make_model_year)
