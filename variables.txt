@@ -1,0 +1,11 @@
+food = "Pasta"
+is_delicious = true
+food ="Pizza"
+num2 = 4
+num7 = 89
+quotient = num7 / num2
+songs = ["I No Longer Fear The Razor Guarding My Heel IV", "King Tulip", "Last To Say"]
+songs.shift()
+puts songs.length
+puts songs
+puts quotient
