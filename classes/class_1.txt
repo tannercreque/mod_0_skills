@@ -1,0 +1,13 @@
+Sides
+
+Attributes:
+hot (boolean)
+paired_with_entree (boolean)
+name (string)
+safe_temp (float[<=])
+
+Methods:
+keep_hot (if the hot attribute is true, this will keep the dish at the safe_temp or above)
+make_meal (this method makes the paired_with_entree attribute read as true)
+change_name (this will modify the name attribute)
+cook_to_temp (this method will cook the food to the safe_temp, and make it ready to serve)
