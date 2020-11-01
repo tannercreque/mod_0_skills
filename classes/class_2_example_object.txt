@@ -1,0 +1,18 @@
+2016 Subaru Impreza
+Attributes
+engine (string) = "4_cylinder_2_liter"
+manual_transmission (boolean) = true
+zero_to_sixty (float) = 5.8
+make_model_year (array?) ["Subaru", "Impreza", "2016"]
+
+Methods
+engine_swap (changes the engine string)
+add_turbo (changes the zero_to_sixty float to a smaller number)
+trans_swap (makes manual_transmission boolean read false if new trans is automatic)
+new_car (changes the make_model_year)
+
+Method outcomes
+engine_swap = If i swapped the engind with a V8 3.0 Liter, the string would read: "v8_3_liter"
+add_turbo = this would change the zero_to_sixty attriubute to around 3.8
+trans_swap = changes the manual transmission boolean to false.
+new_car = ["Subaru", "WRX STI", '2021"]
